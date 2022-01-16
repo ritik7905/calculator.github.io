@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ced6e0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.container .cal_box {
+  background-color: #26272e;
+  border-radius: 20px;
+  height: auto;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.container .cal_box .cal_box_data {
+  margin: 20px;
+  display: inline-block;
+}
+
+.container .cal_box #cal_heading {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 27px;
+  background-color: #19b765;
+}
+
+.container #user_inp {
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+.container #user_inp:focus {
+  border-bottom: 3px solid #19b765;
+}
+
+.container table {
+  margin: 30px auto;
+  border-spacing: 7px;
+}
+
+.container table td {
+  padding: 0px;
+}
+
+.container button {
+  padding: 18px 32px;
+  font-size: 25px;
+  font-weight: bold;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
